@@ -20,10 +20,14 @@ In this, I have noted down some basic java concepts.
 	+ [Math](#math)
 	+ [Boolean](#boolean)
 	+ [Conditional Statements](#condition)
-		+ [If Statement](#if)
-		+ [If..else](#ifelse)
-		+ [Else..if](#elseif)
-		+ [Switch](#switch)
+		+ [if Statement](#if)
+		+ [if..else](#ifelse)
+		+ [else..if](#elseif)
+		+ [switch](#switch)
+	+ [Loop Control](#loop)
+		+ [while](#while)
+		+ [do...while](#whiledo)
+		+ [for loop](#forloop)
 	
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
@@ -194,7 +198,7 @@ Charecteristic of Non-primitive data types
 
 ## <a name="casting"></a>Type Casting
 
-Type casting is when you assign a value of one primitive data type to another type and there are two types of casting:
+Type casting is when we assign a value of one primitive data type to another type and there are two types of casting:
 
 * Widening Casting (automatically) - converting a smaller type to a larger type size
 **byte -> short -> char -> int -> long -> float -> double** and it is done automatically <br />
@@ -345,7 +349,7 @@ System.out.println(firstName.concat(lastName)); // outputs "Ajeya Nayak"
 
 ## <a name="math"></a>Math
 
-The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
+The Java Math class has many methods that allows us to perform mathematical tasks on numbers.
 
 | **Method**| **Description** | **Example**|
 |----------|-------------- |----------|
@@ -377,13 +381,13 @@ Java has the following conditional statements and these conditions to perform di
 + **else if** to specify a new condition to test, if the first condition is false
 + **switch** to specify many alternative blocks of code to be executed
 
-### <a name="if"></a>If Statement
+### <a name="if"></a>if Statement
 
 This statement will enable to execute block of codes, if the condition is **true**.
 
 Syntax: <br />
-if (condition) {
-  // block of code to be executed if the condition is true
+if (condition) { <br />
+  // block of code to be executed if the condition is true <br />
 }
 
 Eg: 
@@ -393,15 +397,15 @@ if (20 > 18) {
 }
 ```
 
-### <a name="ifelse"></a>Else Statement
+### <a name="ifelse"></a>else Statement
 
 This statement will enable to execute block of codes , if the condition is **false**
 
 Syntax: <br />
-if (condition) {
-  // block of code to be executed if the condition is true
-} else {
-  // block of code to be executed if the condition is false
+if (condition) { <br />
+  // block of code to be executed if the condition is true <br />
+} else { <br />
+  // block of code to be executed if the condition is false <br />
 }
 
 Eg:
@@ -415,17 +419,17 @@ if (time < 18) {
 // Outputs "Good evening."
 ```
 
-### <a name="elseif"></a>Else...if Statement
+### <a name="elseif"></a>else...if Statement
 
 We can use the else if statement to specify a new condition if the first condition is **false**.
 
 Syntax: <br/>
-if (condition1) {
-  // block of code to be executed if condition1 is true
-} else if (condition2) {
-  // block of code to be executed if the condition1 is false and condition2 is true
-} else {
-  // block of code to be executed if the condition1 is false and condition2 is false
+if (condition1) { <br />
+  // block of code to be executed if condition1 is true <br />
+} else if (condition2) { <br />
+  // block of code to be executed if the condition1 is false and condition2 is true <br />
+} else { <br />
+  // block of code to be executed if the condition1 is false and condition2 is false <br />
 }
 
 Eg:
@@ -447,7 +451,7 @@ int x = 30;
 ```
 
 
-### <a name="switch"></a>Switch Statement
+### <a name="switch"></a>switch Statement
 
 We can use Switch statement to select one of many code blocks to be executed. <br/>
 
@@ -459,15 +463,15 @@ These statements are work on the following manner:
 + The break and default keywords are optional. Default keyword specifies some code to run if there is no case match
 
 Syntax: <br />
-switch(expression) {
-  case x:
-    // code block
-    break;
-  case y:
-    // code block
-    break;
-  default:
-    // code block
+switch(expression) { <br />
+  case x: <br />
+    // code block <br />
+    break; <br />
+  case y: <br />
+    // code block <br />
+    break; <br />
+  default: <br />
+    // code block <br />
 }
 
 Eg: 
@@ -499,4 +503,102 @@ switch (day) {
     System.out.println("Day is not found!!");
 }
 // Outputs "Thursday" (day 4)
+```
+
+## <a name="loop"></a>Loop Control
+
+Loops can execute a block of code as long as a specified condition is reached.
+These are handy because they save time, reduce errors, and they make code more readable.
+
+### <a name="while"></a>while Loop
+
+A while loop statement in Java programming language repeatedly executes a target statement as long as a given condition is **true**.
+
+Syntax: <br />
+while (condition) { <br />
+  // code block to be executed <br />
+}
+
+Eg:
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      int x = 10;
+
+      while( x < 20 ) {
+         System.out.print("value of x : " + x );
+         x++;
+         System.out.print("\n");
+      }
+   }
+}
+```
+
+//Output
+value of x : 10
+value of x : 11
+value of x : 12
+value of x : 13
+value of x : 14
+value of x : 15
+value of x : 16
+value of x : 17
+value of x : 18
+value of x : 19
+
+### <a name="whiledo"></a>do...while 
+
+This loop is a variant of the while loop. This loop will execute the code block once, before
+checking if the condition is true, then it will repeat the loop as long as the condition is **true**.
+
+Syntax: <br/>
+do { <br />
+  // code block to be executed <br />
+} <br />
+while (condition);
+
+Eg: 
+```java
+int i = 0;
+do {
+  System.out.println(i);
+  i++;
+}
+while (i < 5);
+```
+//Output
+0
+1
+2
+3
+4
+
+### <a name="forloop"></a>for loop
+
+A for loop is a repetition control structure that allows us to efficiently write a loop that needs to be executed a specific number of times.
+
+A for loop is useful when we know how many times a task is to be repeated.
+
+Syntax: <br />
+for (statement 1; statement 2; statement 3) { <br />
+  // code block to be executed <br />
+}
+
++ Statement 1 is executed (one time) before the execution of the code block.
++ Statement 2 defines the condition for executing the code block.
++ Statement 3 is executed (every time) after the code block has been executed.
+
+Eg:
+```java
+public class Test {
+
+   public static void main(String args[]) {
+
+      for(int x = 10; x < 20; x = x + 1) {
+         System.out.print("value of x : " + x );
+         System.out.print("\n");
+      }
+   }
+}
 ```
