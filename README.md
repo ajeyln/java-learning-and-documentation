@@ -5,6 +5,7 @@
 * [Background](#Background)
 * [Content](#content)
     + [Basic](#basic)
+    + [Object Oriented](#oops)
 
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
@@ -21,7 +22,14 @@ This will be constantly updated with relative exercises to get Handson experienc
 ## <a name="content"></a>Content
 
 ### <a name="basic"></a>**Basic** 
+In this section , we will understand the basic syntax and semantic rules for the language, along with the various constructs, mathematical operations as well as repetitive programming constructs.
 
+**Basic Concepts -Table of content**
+
+### <a name="oops"></a>**Object Oriented Programming** 
+Object-oriented programming System(OOPs) is a programming paradigm based on the concept of “objects” that contain data and methods. The primary purpose of object-oriented programming is to increase the flexibility and maintainability of programs. Object oriented programming brings together data and its behaviour(methods) in a single location(object) makes it easier to understand how a program works.
+
+**OOPs Concepts – Table of Contents**
  
 ## <a name="Reference"></a>References
 
