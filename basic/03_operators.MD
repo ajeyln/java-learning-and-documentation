@@ -60,7 +60,7 @@ Eg:
 String greeting = "Hello";
 ```
 
-* The length() method to find the length of the string
+* The **length()** method to find the length of the string
 
 Eg:
 ```java
@@ -68,7 +68,7 @@ String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 System.out.println("The length of the txt string is: " + txt.length()); //output 26
 ```
 
-*  The toUpperCase() to make the string to upper case charecters and toLowerCase() to string to Lower case charecters <br />
+*  The **toUpperCase()** to make the string to upper case charecters and toLowerCase() to string to Lower case charecters <br />
 
 Eg:
 ```java
@@ -77,7 +77,7 @@ System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
 System.out.println(txt.toLowerCase());   // Outputs "hello world"
 ```
 
-* The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string
+* The **indexOf()** method returns the index (the position) of the first occurrence of a specified text in a string
 
 Eg:
 ```java
@@ -85,7 +85,7 @@ String txt = "Please locate where 'locate' occurs!";
 System.out.println(txt.indexOf("locate")); // Outputs 7
 ```
 
-* concat() method to concatenate two strings and we can also "+" operator to concatenate two strings.
+* The **concat()** method to concatenate two strings and we can also "+" operator to concatenate two strings.
 
 Eg: 
 ```java
