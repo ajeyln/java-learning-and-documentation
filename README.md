@@ -4,8 +4,8 @@
 
 * [Background](#Background)
 * [Content](#content)
-    + [Basic](#basic)
-    + [Object Oriented](#oops)
+    + [Basic](./basic/README.md)
+    + [Object Oriented](./oops/README.md)
 
 * [Reference](#Reference)
 * [Useful Links](#useful_links)
