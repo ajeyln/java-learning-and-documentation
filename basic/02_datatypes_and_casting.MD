@@ -1,4 +1,4 @@
-<h1 align ="Center"> Data Types & Casting </h1>
+<h1 align ="Center"> Data Types</h1>
 
 ### Datatypes
 
