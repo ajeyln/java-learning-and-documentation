@@ -6,7 +6,7 @@ Object oriented programming brings together data and its behaviour(methods) in a
 
 ### OOPs Concepts – Table of Contents
 
-+ [01_inheritance](01_inheritance.md)
++ [01_inheritance](/01_inheritance.md)
 + [02_override](./02_override.md)
 + [03_polymorphism](./03_polymorphism.md)
 + [04_abstraction](./04_abstraction.md)
