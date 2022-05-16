@@ -38,11 +38,6 @@ This will be constantly updated with relative exercises to get Handson experienc
 
 This repository is created based on [W3-School Java Tutorial](https://www.w3schools.com/java/default.asp).
 
-## <a name="useful_links"></a>Useful Links
-
-| **Sl. No.** | **Link** | **Remarks** |
-----------|--------------|--------------
-
 <h2><a name="contact"></a>Contact :</h2>
 
 For any feedback, queries Please send Email to ajeyanayak@gmail.com:star2:
