@@ -9,7 +9,6 @@
 	+ [Advanced](./advanced/README.md)
 
 * [Reference](#Reference)
-* [Useful Links](#useful_links)
 * [Contact](#contact)
 
 ## <a name="Background"></a>Background
